@@ -8,6 +8,7 @@
         }
     ],
     "require": {
+<<<<<<< HEAD
         "php": ">=7.3",
         "composer/installers": "^1.8",
         "drupal/core-composer-scaffold": "^9",
@@ -34,9 +35,14 @@
                 "Issue #3021054: Allow bypassing permissions check on public/private key files": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/1.diff"
             },
             "contentacms/contenta_jsonapi": {
-                "Fix broken logo": "https://raw.githubusercontent.com/jrockowitz/contenta-upstream/master/patches/contenta_jsonapi-fix_system_theme_global.patch"
+                "Fix broken logo": "https://raw.githubusercontent.com/Chorany/contenta-upstream-pantheon/master/patches/contenta_jsonapi-fix_system_theme_global.patch"
             }
 
         }
+=======
+    },
+    "extra": {
+        "_README": "To make a custom upstream, clone this repository and add any dependencies to be provided by this upstream to this composer.json file. Leave the root-level composer.json file for the exclusive use of each individual site; do not modify it after your custom upstream has been published. See https://pantheon.io/docs/create-custom-upstream for more information."
+>>>>>>> pantheon-drupal-9/master
     }
 }
